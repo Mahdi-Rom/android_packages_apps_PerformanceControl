@@ -167,7 +167,7 @@ public class MainActivity extends Fragment implements Constants, ActivityThemeCh
             mPagerTabStrip = (PagerTabStrip) rootView.findViewById(R.id.pagerTabStrip);
             // no background color
             //mPagerTabStrip.setBackgroundColor(getResources().getColor(R.color.pc_light_gray));
-            mPagerTabStrip.setTabIndicatorColor(getResources().getColor(R.color.pc_blue));
+            mPagerTabStrip.setTabIndicatorColor(getResources().getColor(R.color.white));
             mPagerTabStrip.setDrawFullUnderline(false);
         }
 
